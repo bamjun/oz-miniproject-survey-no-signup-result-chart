@@ -21,3 +21,4 @@ python manage.py createsuperuser
 ```
 setting.py 부분에서 language 부분 ko-kr, timezone 부분을 Asia/Seoul 로 변경
 ```
+

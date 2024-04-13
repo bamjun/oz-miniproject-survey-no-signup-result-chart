@@ -1,0 +1,13 @@
+{% extends 'layouts/box.html' %}
+
+{% block content %}
+
+설문조사가 종료돼었습니다
+
+
+<form action="{% url 'result' %}" method="post">
+    {% csrf_token %}
+    <button type="submit">결과보기</button>
+</form>
+
+{% endblock %}
